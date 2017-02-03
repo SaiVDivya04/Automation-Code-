@@ -59,6 +59,8 @@ public enum BrowserType {
 
     public String getBrowserType() {
         return this.browserType;
+        
+        # this is another way to commit the changes and also learn  how to crop the feilds ahead 
     }
 
 }
