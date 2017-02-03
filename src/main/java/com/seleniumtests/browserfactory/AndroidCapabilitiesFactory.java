@@ -42,5 +42,7 @@ public class AndroidCapabilitiesFactory implements ICapabilitiesFactory {
         capabilities.setCapability("newCommandTimeout", cfg.getNewCommandTimeout());
 
         return capabilities;
+        
+        #This is the one we change so please look at the changes 
     }
 }
