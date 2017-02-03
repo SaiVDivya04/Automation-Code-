@@ -100,5 +100,6 @@ public class FirefoxDriverFactory extends AbstractWebDriverFactory implements IW
 
     protected void setPageLoadTimeout(final long timeout) {
         driver.manage().timeouts().pageLoadTimeout(timeout, TimeUnit.SECONDS);
+        # this is the change we could make and also do the automation part 
     }
 }
